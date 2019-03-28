@@ -14,6 +14,8 @@ I have:
 
 ## Setup your Hotend Thermistor
 
+**(Do this after you get your printer running)**
+
 The stock hotend has a thermistor that is different from the one I use, if you have the
 stock thermistor, you need to open `Marlin/Configuration.h` and alter the value of `TEMP_SENSOR_1`
 to `1` or the thermistor cartrige that your hotend has.
@@ -21,6 +23,8 @@ to `1` or the thermistor cartrige that your hotend has.
 If you have a thermistor that is `5` on Marlin, I have calibrated my thermistor with a thermometer and modified the file `Marlin\src\module\thermistor\thermistor_5.h`. If you don't want to use my calibration, open that file, and copy&paste the commented bottom values to the top.
 
 ## Setup your Bed PID
+
+**(Do this after you get your printer running)**
 
 ** You can do this after your printer is running with your new board**
 
@@ -32,7 +36,7 @@ And use the bed PID values on `Configuration.h` in section `PID > Bed Temperatur
 
 ## Setup your Hotend PID
 
-** You can do this after your printer is running with your new board**
+**(Do this after you get your printer running)**
 
 Marlin sucks at doing hotend PID autotunes, never works. I recommend you to do a PID autotune, and use the autotune values for `P`, and keep my values for `I` and `D`.
 
@@ -52,7 +56,7 @@ The board has two connectors that go to the power supply, you'll need to connect
 
 The most important one is the **BED IN** as the bed consumes the most power (by far).
 
-## About The BL Touch
+## About The BL Touch/3D Touch
 
 I have a 3D Touch and this Marlin is configured to use it, make sure you follow the wiring diagram (the order on the board is different from the order in the BLT).
 
