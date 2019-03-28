@@ -76,9 +76,15 @@ If everything works, but you rotary encoder spins the other way arround, comment
 
 ## About The Hotend Heater
 
-The Hotend heater uses a pcb block terminal that you can search for as `2EDGK`, the pich is 5.08mm (5.00 will also fit), it's easy to find them. Check `heater.jpg` to see the connector.
+The Hotend heater uses a pcb block terminal. You can search for as `2EDGK`, the pich is 5.08mm (5.00 will also fit), it's easy to find them.
+
+![Hotend Heater Block](heater.jpg)
+
+## Wiring Diagram
 
 ![Wiring Diagram](wiring.png)
+
+Outside the markings, there are the obvious parts (X, Y, Z and E motors), Power and Bed.
 
 # 3D-Printable Box and Fisplay Holder
 
