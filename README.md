@@ -80,11 +80,15 @@ The Hotend heater uses a pcb block terminal that you can search for as `2EDGK`, 
 
 ![Wiring Diagram](wiring.png)
 
-# 3D-Printable Box and display holder
+# 3D-Printable Box and Fisplay Holder
 
 I've designed a box you can use, you can find the box on thingiverse:
 
 https://www.thingiverse.com/thing:3523586
+
+I also designed a mounting system for the display:
+
+https://www.thingiverse.com/thing:3524846
 
 # Uploading
 
