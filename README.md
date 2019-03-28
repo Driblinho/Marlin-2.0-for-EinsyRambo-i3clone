@@ -84,6 +84,12 @@ The Hotend heater uses a pcb block terminal. You can search for as `2EDGK`, the 
 
 ![Hotend Heater Block](heater.jpg)
 
+## Homing/Endstops
+
+You can disconnect the X and Y endstops cables, because the TMC2130 has sensorless homing and is configured in the firmware. (The TMC2130 detects that the motor bumped).
+
+For the Z, the BL Touch does that job, obviously.
+
 ## Wiring Diagram
 
 ![Wiring Diagram](wiring.png)
