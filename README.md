@@ -86,13 +86,11 @@ I've designed a box you can use, you can find the box on thingiverse:
 
 https://www.thingiverse.com/thing:3523586
 
-And a display holder:
-
 # Uploading
 
 To upload, I found it easier to use Platform IO (https://platformio.org) instead of the Arduino IDE.
 
-I use Visual Studio Code with Platform IO, open the project folder (this root folder), and click the Alien in the right, then in *Project Tasks" in the top, click `env:rambo` and click `Verbose Upload`.
+I use Visual Studio Code with Platform IO, open the project folder (this root folder), and click the Alien in the right, then in *Project Tasks* at the top, click `env:rambo` and click `Verbose Upload`.
 
 # Contributing
 
