@@ -86,7 +86,7 @@ The Hotend heater uses a pcb block terminal. You can search for as `2EDGK`, the 
 
 Outside the markings, there are the obvious parts (X, Y, Z and E motors), Power and Bed.
 
-# 3D-Printable Box and Fisplay Holder
+# 3D-Printable Box and Display Holder
 
 I've designed a box you can use, you can find the box on thingiverse:
 
@@ -96,9 +96,9 @@ I also designed a mounting system for the display:
 
 https://www.thingiverse.com/thing:3524846
 
-# Uploading
+# Flashing
 
-To upload, I found it easier to use Platform IO (https://platformio.org) instead of the Arduino IDE.
+To flash, I found it easier to use Platform IO (https://platformio.org) instead of the Arduino IDE.
 
 I use Visual Studio Code with Platform IO, open the project folder (this root folder), and click the Alien in the right, then in *Project Tasks* at the top, click `env:rambo` and click `Verbose Upload`.
 
