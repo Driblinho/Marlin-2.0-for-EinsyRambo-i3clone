@@ -1394,7 +1394,7 @@
  */
 #if HAS_TRINAMIC
 
-#define BOARD_RSENSE 0.091
+#define BOARD_RSENSE 0.22
 
 #define HOLD_MULTIPLIER 0.99 // Scales down the holding current from run current
 #define INTERPOLATE true     // Interpolate X/Y/Z_MICROSTEPS to 256
